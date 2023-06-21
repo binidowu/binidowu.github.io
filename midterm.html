@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Midterm</title>
+    <link rel="stylesheet" href="midterm.css">
+    <script src="midterm.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Data Entry Form</h1>
+    </header>
+    <main>
+
+        <div class="dataEntry1">
+            <fieldset>
+                <legend><strong>Data Entry 1</strong></legend>
+                <Form id="dataEntry1" action="https://webdevbasics.net/scripts/pacific.php" method="POST">
+                    <label for="firstname"><strong>First Name: </strong></label>
+                    <input type="text" name="firstname" id="firstname" required>
+                    <br><br>
+
+                    <label for="lastname"><strong>Last Name: </strong></label>
+                    <input type="lastname" name="lastname" id="lastname" required>
+                    <br><br>
+
+                    <label for="address"><strong>Address: </strong></label>
+                    <input type="address" name="address" id="address" required>
+                    <br><br>
+
+                    <label for="gender"><strong>Gender: </strong></label>
+                    <select name="gender" id="gender" required>
+                        <option></option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                    <br><br>
+
+                    <label for="year"><strong>Year: </strong></label>
+                    <input type="date" name="year" id="year" required>
+                    <br><br>
+                </form>
+            </fieldset>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <div class="dataEntry2">
+            <fieldset>
+                <legend><strong>Data Entry 1</strong></legend>
+                <Form id="dataEntry2" method="POST">
+                    <label for="copydata"><strong>Use entry 1 data </strong></label>
+                    <input type="checkbox" name="copydata" id="copydata" required>
+                    <br><br>
+
+                    <label for="fname"><strong>First Name: </strong></label>
+                    <input type="text" name="fname" id="fname" required>
+                    <br><br>
+
+                    <label for="lname"><strong>Last Name: </strong></label>
+                    <input type="lname" name="lname" id="lname" required>
+                    <br><br>
+
+                    <label for="addr"><strong>Address: </strong></label>
+                    <input type="addr" name="addr" id="addr" required>
+                    <br><br>
+
+                    <label for="gen"><strong>Gender: </strong></label>
+                    <select name="gen" id="gen" required>
+                        <option></option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                    <br><br>
+
+                    <label for="yr"><strong>Year: </strong></label>
+                    <input type="date" name="yr" id="yr" required>
+                    <br><br>
+                </form>
+            </fieldset>
+
+        </div>
+        <div class="button-container">
+            <input type="reset" id="resetBtn" value="RESET">
+            <input type="submit" id="submitBtn" value="FINISH">
+        </div>
+    </main>
+    <hr>
+    <br>
+    <footer>
+        &copy; Copyright 301269050 Midterm
+    </footer>
+</body>
+
+</html>
